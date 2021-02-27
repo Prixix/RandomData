@@ -1,0 +1,19 @@
+{
+  "name": "@prixix/randomdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "randomdata.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prixix/RandomData.git"
+  },
+  "author": "Paul Artjomow <paul-artjomow@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prixix/RandomData/issues"
+  },
+  "homepage": "https://github.com/Prixix/RandomData#readme"
+}
