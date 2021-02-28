@@ -1,3 +1,7 @@
+var alphabetUppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var alphabetLowercase = alphabetUppercase.toLowerCase();
+var alphabet = alphabetUppercase + alphabetLowercase;
+
 exports.test = function(test) {
     console.log(test)
 }
@@ -26,4 +30,23 @@ exports.pickIP = function() {
 exports.flipCoin = function() {
     if((Math.floor(Math.random() * 2)) == 0) return "Heads";
     return "Tails";
+}
+
+exports.pickTime = function(type = "hour") {
+    switch(type) {
+        case 'hour':
+            return this.pickInt(1, 25);
+        case 'minute':
+            return this.pickInt(0, 60);
+        default:
+            return;
+    }
+}
+
+exports.pickHash = function() {
+    return [...Array(32)].map(() => Math.floor(Math.random() * 16).toString(16)).join("");
+}
+
+exports.pickLetter = function() {
+    return alphabet.charAt(Math.floor(Math.random() * alphabet.length));
 }

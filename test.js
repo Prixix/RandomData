@@ -26,3 +26,19 @@ console.log(rd.pickIP());
 console.log("Coin Flips:");
 console.log(rd.flipCoin());
 console.log(rd.flipCoin());
+
+console.log("Random hour:");
+console.log(rd.pickTime("hour"));
+console.log(rd.pickTime("hour"));
+
+console.log("Random minute:");
+console.log(rd.pickTime("minute"));
+console.log(rd.pickTime("minute"));
+
+console.log("Random hash:");
+console.log(rd.pickHash());
+console.log(rd.pickHash());
+
+console.log("Random Letter:");
+console.log(rd.pickLetter());
+console.log(rd.pickLetter());
