@@ -28,7 +28,7 @@ exports.flipCoin = function() {
     return "Tails";
 }
 
-exports.pickTime = function(type = 'hour') {
+exports.pickTime = function(type = "hour") {
     switch(type) {
         case 'hour':
             return this.pickInt(1, 25);
