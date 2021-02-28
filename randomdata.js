@@ -27,3 +27,18 @@ exports.flipCoin = function() {
     if((Math.floor(Math.random() * 2)) == 0) return "Heads";
     return "Tails";
 }
+
+exports.pickTime = function(type = "hour") {
+    switch(type) {
+        case 'hour':
+            return this.pickInt(1, 25);
+        case 'minute':
+            return this.pickInt(0, 60);
+        default:
+            return;
+    }
+}
+
+exports.pickHash = function() {
+    return [...Array(32)].map(() => Math.floor(Math.random() * 16).toString(16)).join("");
+}
