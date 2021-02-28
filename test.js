@@ -38,3 +38,7 @@ console.log(rd.pickTime("minute"));
 console.log("Random hash:");
 console.log(rd.pickHash());
 console.log(rd.pickHash());
+
+console.log("Random Letter:");
+console.log(rd.pickLetter());
+console.log(rd.pickLetter());

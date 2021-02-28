@@ -1,3 +1,7 @@
+var alphabetUppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var alphabetLowercase = alphabetUppercase.toLowerCase();
+var alphabet = alphabetUppercase + alphabetLowercase;
+
 exports.test = function(test) {
     console.log(test)
 }
@@ -41,4 +45,8 @@ exports.pickTime = function(type = "hour") {
 
 exports.pickHash = function() {
     return [...Array(32)].map(() => Math.floor(Math.random() * 16).toString(16)).join("");
+}
+
+exports.pickLetter = function() {
+    return alphabet.charAt(Math.floor(Math.random() * alphabet.length));
 }
