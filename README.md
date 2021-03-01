@@ -37,7 +37,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Prixix and Community](https://github.com/Prixix).<br />
+Copyright © 2021 [Prixix](https://github.com/Prixix).<br />
 This project is [MIT](https://github.com/Prixix/RandomData/blob/main/LICENSE) licensed.
 
 ***
