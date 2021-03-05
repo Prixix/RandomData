@@ -42,3 +42,9 @@ console.log(rd.pickHash());
 console.log("Random Letter:");
 console.log(rd.pickLetter());
 console.log(rd.pickLetter());
+
+
+console.log("Random Gender:");
+console.log(rd.pickGender(false));
+console.log(rd.pickGender(true));
+console.log(rd.pickGender());
