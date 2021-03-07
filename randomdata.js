@@ -51,7 +51,7 @@ exports.pickLetter = function() {
     return alphabet.charAt(Math.floor(Math.random() * alphabet.length));
 }
 
-exports.pickGender = function(fillwords=false) {
+exports.pickPrefix = function(fillwords=false) {
     if (fillwords===false) return this.pickInt(0, 1) === 0 ? 'Mr.' : 'Mrs.';            
     return this.pickInt(0, 1) === 0 ? 'Mister' : 'Misses';    
 }
